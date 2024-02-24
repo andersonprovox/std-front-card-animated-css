@@ -5,6 +5,8 @@
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
 }
 
 .card {
@@ -16,7 +18,7 @@
 
 }
 
-.card-shadow {
+.card.card-shadow {
   border: none;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
 }
